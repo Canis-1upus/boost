@@ -136,6 +136,7 @@
     <ClCompile Include="test.c++03.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\mock_client.hpp" />
     <ClInclude Include="..\include\test_suite.hpp" />
     <ClInclude Include="..\include\test_util.hpp" />
   </ItemGroup>

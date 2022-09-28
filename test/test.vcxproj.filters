@@ -44,5 +44,8 @@
     <ClInclude Include="..\include\test_suite.hpp">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\mock_client.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
