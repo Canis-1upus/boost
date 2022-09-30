@@ -16,6 +16,12 @@
     <Filter Include="allocation">
       <UniqueIdentifier>{765dd8d7-4ea3-409b-9b90-0c4aba42fb48}</UniqueIdentifier>
     </Filter>
+    <Filter Include="buffers">
+      <UniqueIdentifier>{35a7b15a-8119-459d-88ba-12135e562e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chat">
+      <UniqueIdentifier>{60d13605-5c27-4152-ba4b-9dcd85d0ab61}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="allocation\server.hpp">
@@ -24,5 +30,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="buffers\reference_counted.hpp">
+      <Filter>buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="chat\chat_message.hpp">
+      <Filter>chat</Filter>
+    </ClInclude>
+    <ClInclude Include="chat\chat_client.hpp">
+      <Filter>chat</Filter>
+    </ClInclude>
+    <ClInclude Include="chat\chat_server.hpp">
+      <Filter>chat</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

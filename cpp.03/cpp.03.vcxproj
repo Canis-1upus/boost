@@ -24,6 +24,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="buffers\reference_counted.hpp" />
+    <ClInclude Include="chat\chat_client.hpp" />
+    <ClInclude Include="chat\chat_message.hpp" />
+    <ClInclude Include="chat\chat_server.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
